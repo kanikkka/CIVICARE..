@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CiviCare Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+<h2>CiviCare</h2>
+
+<ul>
+<li>Dashboard</li>
+<li>Add Complaint</li>
+<li>Track</li>
+<li>Rewards</li>
+<li>Admin</li>
+</ul>
+</div>
+
+
+<!-- MAIN -->
+<div class="main">
+
+<h1>Welcome to Smart City Portal</h1>
+
+<div class="cards">
+
+<div class="card blue">
+<h3>Total Complaints</h3>
+<p id="total">0</p>
+</div>
+
+<div class="card green">
+<h3>Resolved</h3>
+<p id="resolved">0</p>
+</div>
+
+<div class="card red">
+<h3>Pending</h3>
+<p id="pending">0</p>
+</div>
+
+</div>
+
+
+<!-- TABLE -->
+
+<table>
+<tr>
+<th>Type</th>
+<th>Location</th>
+<th>Status</th>
+<th>Priority</th>
+</tr>
+
+<tbody id="tableData"></tbody>
+
+</table>
+
+
+</div>
+</div>
+<button class="btn" onclick="toggle()">Dark Mode</button>
+
+
+<script src="app.js"></script>
+</body>
+</html>

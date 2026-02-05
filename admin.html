@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel - CiviCare</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+<div class="logo">CiviCare Admin</div>
+
+<ul>
+<li>Dashboard</li>
+<li>View Complaints</li>
+<li>Update Status</li>
+<li>Department Stats</li>
+<li>Logout</li>
+</ul>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+<h1>Admin Dashboard</h1>
+
+<!-- CARDS -->
+<div class="cards">
+
+<div class="card purple">
+<h3>Total Complaints</h3>
+<p id="total">0</p>
+</div>
+
+<div class="card orange">
+<h3>Pending</h3>
+<p id="pending">0</p>
+</div>
+
+<div class="card teal">
+<h3>Resolved</h3>
+<p id="resolved">0</p>
+</div>
+
+<div class="card pink">
+<h3>High Priority</h3>
+<p id="highPriority">0</p>
+</div>
+
+</div>
+
+<!-- COMPLAINTS TABLE -->
+<table>
+<thead>
+<tr>
+<th>User</th>
+<th>Type</th>
+<th>Location</th>
+<th>Status</th>
+<th>Priority</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody id="adminTable"></tbody>
+</table>
+
+</div>
+</div>
+
+<script src="../admin.js"></script>
+</body>
+</html>

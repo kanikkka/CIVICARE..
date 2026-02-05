@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Complaint - CiviCare</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+<div class="logo">CiviCare</div>
+
+<ul>
+<li>Dashboard</li>
+<li>Add Complaint</li>
+<li>Track</li>
+<li>Rewards</li>
+<li>Admin</li>
+</ul>
+</div>
+
+
+<!-- MAIN SECTION -->
+<div class="main">
+
+<h2>Register New Complaint</h2>
+
+<div class="form-card">
+
+<div class="row">
+
+<div class="field">
+<label>Complaint Type</label>
+<select id="type">
+<option>Water</option>
+<option>Light</option>
+<option>Road</option>
+<option>Garbage</option>
+</select>
+</div>
+
+<div class="field">
+<label>Location</label>
+<input id="location" placeholder="Enter location">
+</div>
+
+</div>
+
+
+<div class="field">
+<label>Description</label>
+<textarea id="desc" placeholder="Explain your issue..."></textarea>
+</div>
+
+
+<div class="field">
+<label>Upload Photo (optional)</label>
+<input type="file">
+</div>
+
+
+<button class="btn" onclick="submitComplaint()">
+Submit Complaint
+</button>
+
+</div>
+
+</div>
+</div>
+
+<script src="add.js"></script>
+
+</body>
+</html>

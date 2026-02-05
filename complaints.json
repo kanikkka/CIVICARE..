@@ -1,0 +1,18 @@
+[
+{
+  "username": "kanikaa",
+  "type": "road",
+  "location": "mohali",
+  "priority": 1,
+  "status": "Pending",
+  "description": "road is totally damage"
+},
+{
+  "username": "KANIKAA",
+  "type": "Light",
+  "location": "in mohali",
+  "priority": 3,
+  "status": "Pending",
+  "description": "street light not working in our area"
+}
+]
